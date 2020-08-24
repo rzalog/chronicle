@@ -36,3 +36,22 @@ API dependency:
 $ pip3 install google-api-client
 ```
 
+--------------------------------------------------------------------------------
+
+PUBLIC DOCUMENTATION IS ABOVE. INTERNAL ONLY IS BELOW.
+
+In the current clone of the public git repo (which is under experimental),
+requirements.txt is located under cli. But in the public git
+repo, it's located in the root of the git repo.
+
+We also provide: * A sample Webserver, `ui/rule_webapp.py`.
+
+You need to run `pip3 install -r requirements.txt` from whatever directory
+contains requirements.txt. You can use different virtual environments for the
+CLI and the UI binaries.
+
+To run the UI binary: from the `ui` folder:
+
+```
+python3 rule_webapp.py
+```
